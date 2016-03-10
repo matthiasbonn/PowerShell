@@ -1,6 +1,9 @@
 #Powershell#
+Powershell Script to set folder permissions on all folders that contains the foldername 
 
-##
+##Parameters##
+
+##Usage##
 
 ##More Information##
 
