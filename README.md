@@ -1,9 +1,5 @@
 #Powershell#
-Powershell Script to set folder permissions on all folders that contains the foldername 
-
-##Parameters##
-
-##Usage##
+Different Powershell Scripts  
 
 ##More Information##
 
@@ -15,3 +11,4 @@ Find me on:
 
 - My Blog: http://blog.mb-itconsult.de
 - twitter: https://www.twitter.com/herrbonn
+- Github: https://github.com/matthiasbonn
