@@ -100,7 +100,8 @@ function Cleanup-Variables {
 
     Where-Object { $startupVariables -notcontains $_.Name } |
 
-    % { Remove-Variable -Name "$($_.Name)" -Force -Scope "global" }
+   % { try {Remove-Variable -Name "$($_.Name)" -Force -Scope "global"  -ErrorAction SilentlyContinue -WarningAction SilentlyContinue} 
+catch{} }
 
 }
 
