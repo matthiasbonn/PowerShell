@@ -41,7 +41,7 @@ param (
     #Dump all existing Variables in a variable for housekeeping
     $startupVariables=''
     new-variable -force -name startupVariables -value ( Get-Variable | % { $_.Name } )
-    $TemplateVersion = 0.1
+    $TemplateVersion = 0.2
     $ScriptVersion   = 0.1
     $ScriptPath      = (Split-Path ((Get-Variable MyInvocation).Value).MyCommand.Path)
     $ScriptName      = [system.io.path]::GetFilenameWithoutExtension($MyInvocation.InvocationName)
